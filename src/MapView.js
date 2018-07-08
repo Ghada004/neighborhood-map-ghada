@@ -62,16 +62,26 @@ class MapView extends Component {
     });
   }
 
+  componentDidMount(){
+    window.gm_authFailure = this.gm_authFailure;
+}
+
   handleMarkerClick = (selectId) => {
     this.setState({ selectId });
   }
 
   handleMapLoad = (map) => {
     if(!map){
-      window.alert("GooleMap seems doesn't load corretly, please refresh page!");
+      window.alert("Foursquare API  seems failed to load data!");
     }
     console.log(map);
   }
+
+// implement the functionality to show error message 
+  gm_authFailure(){
+    window.alert("Google Maps error!")
+}
+
 
   render() {
     const { places } = this.props;
