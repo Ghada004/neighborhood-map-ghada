@@ -27,9 +27,10 @@ class SearchList extends Component {
         </div>
         <hr/>
         <div style={{maxHeight: '82vh',overflow: 'scroll'}}>
-          <ul className="list-group">
+          <ul role="list" className="list-group">
             {places.map(place => (
               <li
+                role="listitem"
                 tabIndex="0"
                 key={place.id}
                 className="list-group-item list-group-item-action"

@@ -33,12 +33,6 @@ const Map = compose(
             <div className="card-block">
               <h6>Address</h6>
               <p>{place.location.formattedAddress}</p>
-              <h6>Phone</h6>
-              <p>{place.contact.formattedPhone}</p>
-              <h6>Twitter</h6>
-              <p>{place.contact.twitter}</p>
-              <h6>Facebook</h6>
-              <p>{place.contact.facebookName}</p>
             </div>
           </div>
         </InfoBox>
