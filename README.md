@@ -1,8 +1,8 @@
 # GHADA
 
 # Neighborhood Map (React)
-Locations: Riyadh 
-Markers: Pizza locations. 
+Locations: Riyadh
+Markers: Pizza locations.
 This project is React, Google Map, Foursquare and bootstrap 4 powered single page application.
 
 
@@ -27,5 +27,5 @@ The app production code will be in `build` folder. Then app is ready to be deplo
    either commond is fine, depending on your preference.
 4. typeor `yarn star`, to run app with develop mode,
    then you can type "http://localhost:3000" in your browser to use the app.
-5. enjoy!
-
+5. The service worker is implemented only in the production build.
+6. enjoy!
