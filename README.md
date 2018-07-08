@@ -24,7 +24,6 @@ The app production code will be in `build` folder. Then app is ready to be deplo
 1. Open the terminal
 2. `cd` Into the app directory
 3. type  `yarn install` to install app dependences,
-   either commond is fine, depending on your preference.
 4. typeor `yarn star`, to run app with develop mode,
    then you can type "http://localhost:3000" in your browser to use the app.
 5. The service worker is implemented only in the production build.
